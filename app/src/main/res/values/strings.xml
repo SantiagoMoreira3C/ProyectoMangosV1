@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">APP_MANGOS.V1</string>
+    <string name="txt_codigoart">Código del producto</string>
+    <string name="txt_descripcion_art">Descripción del producto</string>
+    <string name="txt_precioart">Precio del producto</string>
+    <string name="BotonRegistrarArt">Registrar producto</string>
+    <string name="BotonBuscarArt">Buscar producto</string>
+    <string name="BotonEliminarArt">Eliminar producto</string>
+    <string name="BotonModificarArt">Modificar producto</string>
+    <string name="title_producto">Sección Producto</string>
+
+</resources>
