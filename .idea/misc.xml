@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/layout/activity_splashscreen.xml" value="0.25" />
         <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/layout/activity_vist_product.xml" value="0.25" />
         <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/layout/lista_item_producto.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/SUPERSAN30/AndroidStudioProjects/APP_MANGOSV1/app/src/main/res/mipmap-anydpi-v26/icono_appmangosv1.xml" value="0.2203125" />
       </map>
     </option>
   </component>
