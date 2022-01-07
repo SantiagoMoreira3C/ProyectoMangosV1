@@ -11,6 +11,7 @@ import java.util.TimerTask;
 
 import facci.am1.app_mangosv1.MainActivity;
 import facci.am1.app_mangosv1.R;
+import facci.am1.app_mangosv1.Registro;
 
 public class Splashscreen extends Activity {
 
@@ -22,7 +23,7 @@ public class Splashscreen extends Activity {
         TimerTask tarea = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(Splashscreen.this, MainActivity.class);
+                Intent intent = new Intent(Splashscreen.this, Registro.class);
                 startActivity(intent);
                 finish();
 

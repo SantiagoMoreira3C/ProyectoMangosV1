@@ -1,7 +1,10 @@
 package facci.am1.app_mangosv1;
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
@@ -14,11 +17,15 @@ public class AdminSQLiteOpenHelper  extends SQLiteOpenHelper {
     //Segundo parámetro BaseDeDatos
     @Override
     public void onCreate(SQLiteDatabase BaseDeDatos) {
-        BaseDeDatos.execSQL("create table articulos(codigoart int primary key, descripcionart text, precioart real)");
+        BaseDeDatos.execSQL("create table articulos(codigoart int primary key, descripcionart text, precioart real )");
+
     }
+
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
+
+
 }

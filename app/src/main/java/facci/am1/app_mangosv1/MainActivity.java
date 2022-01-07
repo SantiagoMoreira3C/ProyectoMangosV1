@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
         et_codigoart = (EditText) findViewById(R.id.txt_codigoart);
         et_descripcionart = (EditText) findViewById(R.id.txt_descripcionart);
         et_precioart = (EditText) findViewById(R.id.txt_precioart);
