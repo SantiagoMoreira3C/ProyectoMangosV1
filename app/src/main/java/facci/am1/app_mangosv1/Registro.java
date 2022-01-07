@@ -68,5 +68,16 @@ public class Registro extends AppCompatActivity {
         });
         
         //Falta arreglar la accion del boton para ir a la vista login
+        
+        //Solución ofrecida mediante el Intent 
+        btn_signing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+}
 
        
