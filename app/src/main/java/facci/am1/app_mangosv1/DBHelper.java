@@ -16,6 +16,9 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase myDB) {
 
+        //TABLA MAESTRA, USUARIOS CON EL CAMPO DE NOMBRE DE USUARIO Y LA CONTRASEÑA
+        //USUARIO DESEA ALGO QUE SEA SENCILLO DE RECORDAR PARA ALMACENAR SUS PRODUCTOS
+
         myDB.execSQL("create table users(username text primary key, password text)");
 
     }

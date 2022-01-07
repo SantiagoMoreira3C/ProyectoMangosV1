@@ -15,8 +15,13 @@ public class AdminSQLiteOpenHelper  extends SQLiteOpenHelper {
     }
 
     //Segundo parámetro BaseDeDatos
+
     @Override
     public void onCreate(SQLiteDatabase BaseDeDatos) {
+        //TABLA YA TRANSACCIONAL, ES DONDE SE CREAR LOS ARTÍCULOS PARA CADA USUARIO, ESTE CONTIENE
+        //LA INFORMACIÓN RELEVANTE QUE SE REQUIERE PARA EL NEGOCIO DE LA PERSONA INDICADA,
+        //POSEE UN CODIGO, UNA DESCRIPCION, Y UN PRECIO TIPO DECIMAL
+
         BaseDeDatos.execSQL("create table articulos(codigoart int primary key, descripcionart text, precioart real )");
 
     }
