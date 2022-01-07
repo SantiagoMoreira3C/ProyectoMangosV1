@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
                 String pass = password.getText().toString();
 
                 if(user.equals("") || pass.equals("")){
-                    Toast.makeText(LoginActivity.this,"Por favor ingresa las Credenciales", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"Ingrese las credenciales", Toast.LENGTH_SHORT).show();
                 }else{
                   Boolean result =  myDB.checkusernamePassword(user, pass);
                   if(result == true){
@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
 
                       
                   }else{
-                      Toast.makeText(LoginActivity.this, "Credenciales inocrrectas", Toast.LENGTH_SHORT).show();
+                      Toast.makeText(LoginActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
                   }
                 }
             }
